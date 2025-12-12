@@ -1,3 +1,7 @@
-WaterAndStuff/data/
-
+WaterAndStuff/data/*
+SoilMoisture/data/*
+Temperature/data/*
+Landslides/data/*
+GroundTemperature/data/*
+Slope/data/*
 .env

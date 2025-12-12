@@ -5,13 +5,13 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-variable = "PREC"
+variable = "TG"
 
 hostname = "merida-sftp.rse-web.it"
 username = os.getenv("SFTP_USERNAME")
 password = os.getenv("SFTP_PASSWORD")
 remote_base = "/merida/METEO/Output/ope/WRFAMEZ/ECMWF/grib2/{ym}/{variable}/MERIDA_{variable}_{ym}.nc"
-local_base = "Risikofaktoren/WaterAndStuff/data/MERIDA_{variable}_{ym}.nc"
+local_base = "Risikofaktoren/GroundTemperature/data/MERIDA_{variable}_{ym}.nc"
 min_year = 2015
 max_year = 2024
 
