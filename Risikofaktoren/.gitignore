@@ -3,5 +3,6 @@ SoilMoisture/data/*
 Temperature/data/*
 Landslides/data/*
 GroundTemperature/data/*
-Slope/data/*
+Slope/input/*
+Slope/output/*
 .env
