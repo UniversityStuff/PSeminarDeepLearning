@@ -1,0 +1,21 @@
+MODEL REPORT
+1. OVERFITTING CHECK
+Train Acc: 0.9831
+Test Acc:  0.8134
+Gap:       0.1697
+
+2. TEST METRICS
+Precision: 0.6757
+Recall:    0.6579
+F1-Score:  0.6667
+
+3. CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87        96
+           1       0.68      0.66      0.67        38
+
+    accuracy                           0.81       134
+   macro avg       0.77      0.77      0.77       134
+weighted avg       0.81      0.81      0.81       134
+
